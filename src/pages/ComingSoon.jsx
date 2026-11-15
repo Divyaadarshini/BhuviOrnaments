@@ -40,7 +40,7 @@ export default function ComingSoon() {
       <img className="cs-banner" src="/images/banner.jpeg" alt="Bhuvi Ornaments — jewellery for every you" />
       <div className="cs-body">
         <h1>Coming soon</h1>
-        <p>We're putting the finishing touches on our collection of anti tarnish, gold-plated, pearl and temple jewellery. Message us on WhatsApp to ask get in touch.</p>
+        <p>We're putting the finishing touches on our collection of anti tarnish, gold-plated, pearl and temple jewellery. Message us on WhatsApp to get in touch.</p>
         {wa && <a className="btn wa" target="_blank" rel="noopener noreferrer" href={waLink(wa, 'Hi, I would like to enquire about the products.')}>WhatsApp</a>}
       </div>
     </main>
