@@ -14,7 +14,7 @@ export default function ComingSoon() {
         <p className="cc" style={{ letterSpacing: '.3em', textTransform: 'uppercase' }}>Jewellery for every you</p>
         <h1 style={{ fontSize: 'clamp(40px, 9vw, 64px)', margin: '8px 0 14px' }}>Coming soon</h1>
         <p style={{ color: 'var(--muted)', margin: '0 0 28px' }}>
-          We're putting the finishing touches on our collection of gold-plated, pearl and temple jewellery. Message us on WhatsApp to ask about our pieces.
+          We're putting the finishing touches on our collection of anti-tarnish, gold-plated, pearl and temple jewellery. Message us on WhatsApp to get in touch.
         </p>
         {wa && <a className="btn wa" target="_blank" rel="noopener noreferrer" href={waLink(wa, 'Hi, I would like to know when Bhuvi Ornaments launches.')}>Chat on WhatsApp</a>}
       </div>
