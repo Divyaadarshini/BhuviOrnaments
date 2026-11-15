@@ -8,7 +8,7 @@ const TRUST = [['Quality jewellery', 'Checked piece by piece'], ['Secure packagi
 export default function Home() {
   const { products, settings, offers } = useCatalog()
   return (<>
-    <div className="hero"><img src="/images/bhuvi_banner.jpeg" alt="Bhuvi Ornaments — jewellery for every you" /></div>
+    <div className="hero"><img src="/images/banner.jpeg" alt="Bhuvi Ornaments — jewellery for every you" /></div>
     <div className="intro"><h1>Rooted in South India.</h1><p>Curated for moments that matter.</p>
       <Link className="btn" to="/shop">Shop now</Link> &nbsp; <a className="btn ghost" href="#categories">Explore collection</a></div>
     <Section title="Shop by category" id="categories">

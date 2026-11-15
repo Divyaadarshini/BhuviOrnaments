@@ -6,7 +6,7 @@ export default function Header() {
   const go = (e) => { e.preventDefault(); nav(`/shop?q=${encodeURIComponent(q)}`); setMenu(false) }
   return (
     <header><div className="wrap bar">
-      <Link className="logo" to="/"><img src="/images/logo.jpg" alt="Bhuvi Ornaments logo" /><b>Bhuvi Ornaments</b></Link>
+      <Link className="logo" to="/"><img src="/images/logo.png" alt="Bhuvi Ornaments logo" /><b>Bhuvi Ornaments</b></Link>
       <nav className={menu ? 'open' : ''} onClick={() => setMenu(false)}>
         <NavLink className="nl" to="/" end>Home</NavLink><NavLink className="nl" to="/shop">Shop</NavLink><a className="nl" href="/#categories">Categories</a><a className="nl" href="/#about">Our story</a>
       </nav>
