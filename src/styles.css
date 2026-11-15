@@ -63,3 +63,20 @@ details{border-top:1px solid var(--line);padding:10px 0}summary{cursor:pointer;f
 :focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 
 .nl{text-decoration:none}.nl.act{color:var(--text)}.lk{text-decoration:none;color:inherit}
+
+
+.cs{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column}
+.cs-banner{width:100%;display:block;object-fit:cover;object-position:center;aspect-ratio:4/3;max-height:55dvh}
+.cs-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;max-width:640px;margin:0 auto;padding:28px 20px calc(36px + env(safe-area-inset-bottom,0px))}
+.cs-body h1{font-size:clamp(36px,9vw,60px);margin:0 0 12px}
+.cs-body p{color:var(--muted);margin:0 0 24px;font-size:clamp(15px,2.2vw,17px)}
+.cs-body .btn{width:100%;max-width:320px;text-align:center;padding:14px 26px}
+
+/* Tablet */
+@media(min-width:600px){.cs-banner{aspect-ratio:16/6;max-height:50dvh}.cs-body .btn{width:auto}}
+
+/* Laptop / desktop */
+@media(min-width:1000px){.cs-banner{aspect-ratio:16/5.5;max-height:400px}.cs-body{padding-block:40px}}
+
+/* Short landscape phones */
+@media(max-height:500px){.cs-banner{max-height:45dvh}.cs-body{padding-block:16px}.cs-body h1{font-size:34px}}
