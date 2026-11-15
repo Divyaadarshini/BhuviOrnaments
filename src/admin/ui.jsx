@@ -1,0 +1,2 @@
+export const Modal = ({ children, onClose }) => <div className="adm-m" onMouseDown={(e) => e.target === e.currentTarget && onClose()}><div>{children}</div></div>
+export const Field = ({ label, full, children }) => <div className={full ? 'full' : ''}><label className="l">{label}</label>{children}</div>

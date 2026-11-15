@@ -1,0 +1,213 @@
+{
+    "settings": {
+      "wa": "919999999999",
+      "ship": 99,
+      "free": 999,
+      "cats": [
+        "Necklaces",
+        "Earrings",
+        "Rings",
+        "Bangles",
+        "Bracelets",
+        "Bridal"
+      ]
+    },
+    "products": [
+      {
+        "id": "gold-pearl-necklace",
+        "name": "Gold Pearl Necklace",
+        "cat": "Necklaces",
+        "price": 299,
+        "mrp": 1999,
+        "stock": 12,
+        "tags": "pearl gold layered",
+        "isNew": true,
+        "best": true,
+        "desc": "Delicate freshwater-look pearls strung with gold-plated spacers.",
+        "vars": [],
+        "mat": "Brass, gold plating, glass pearls",
+        "sku": "BO-100",
+        "img": ""
+      },
+      {
+        "id": "emerald-bridal-necklace",
+        "name": "Emerald Bridal Necklace",
+        "cat": "Bridal",
+        "price": 2899,
+        "mrp": 3999,
+        "stock": 5,
+        "tags": "bridal kemp emerald",
+        "isNew": true,
+        "best": true,
+        "desc": "A statement bridal set with green stones and pearl drops.",
+        "vars": [
+          "Necklace only",
+          "With earrings"
+        ],
+        "mat": "Brass, gold plating, kemp stones",
+        "sku": "BO-101",
+        "img": ""
+      },
+      {
+        "id": "temple-earrings",
+        "name": "Temple Earrings",
+        "cat": "Earrings",
+        "price": 799,
+        "mrp": 1099,
+        "stock": 20,
+        "tags": "temple lakshmi",
+        "isNew": false,
+        "best": true,
+        "desc": "Classic temple work with a matte antique finish.",
+        "vars": [],
+        "mat": "Copper alloy, matte gold plating",
+        "sku": "BO-102",
+        "img": ""
+      },
+      {
+        "id": "pearl-jhumka",
+        "name": "Pearl Jhumka Earrings",
+        "cat": "Earrings",
+        "price": 699,
+        "mrp": 999,
+        "stock": 25,
+        "tags": "jhumka pearl",
+        "isNew": true,
+        "best": true,
+        "desc": "Lightweight jhumkas with pearl beading and a green stone centre.",
+        "vars": [
+          "Small",
+          "Medium"
+        ],
+        "mat": "Brass, pearls, stones",
+        "sku": "BO-103",
+        "img": ""
+      },
+      {
+        "id": "american-diamond-ring",
+        "name": "American Diamond Ring",
+        "cat": "Rings",
+        "price": 599,
+        "mrp": 899,
+        "stock": 3,
+        "tags": "ring diamond adjustable",
+        "isNew": true,
+        "best": false,
+        "desc": "Sparkling AD stone set in an adjustable band.",
+        "vars": [],
+        "mat": "Brass, rhodium plating, AD stone",
+        "sku": "BO-104",
+        "img": ""
+      },
+      {
+        "id": "gold-plated-bangles",
+        "name": "Gold-plated Bangle Set",
+        "cat": "Bangles",
+        "price": 1199,
+        "mrp": 1599,
+        "stock": 15,
+        "tags": "bangle set gold",
+        "isNew": false,
+        "best": true,
+        "desc": "Set of four slim bangles with a fine textured finish.",
+        "vars": [
+          "2.4",
+          "2.6",
+          "2.8"
+        ],
+        "mat": "Brass, 1 micron gold plating",
+        "sku": "BO-105",
+        "img": ""
+      },
+      {
+        "id": "kundan-bracelet",
+        "name": "Kundan Bracelet",
+        "cat": "Bracelets",
+        "price": 549,
+        "mrp": 749,
+        "stock": 0,
+        "tags": "kundan bracelet",
+        "isNew": false,
+        "best": false,
+        "desc": "Kundan-style bracelet with an adjustable chain closure.",
+        "vars": [],
+        "mat": "Alloy, kundan stones",
+        "sku": "BO-106",
+        "img": ""
+      },
+      {
+        "id": "layered-gold-chain",
+        "name": "Layered Gold Chain",
+        "cat": "Necklaces",
+        "price": 999,
+        "mrp": 999,
+        "stock": 18,
+        "tags": "chain daily wear",
+        "isNew": true,
+        "best": false,
+        "desc": "Two fine chains that layer for a light everyday look.",
+        "vars": [],
+        "mat": "Stainless steel, gold PVD",
+        "sku": "BO-107",
+        "img": ""
+      },
+      {
+        "id": "mango-choker",
+        "name": "Antique Mango Choker",
+        "cat": "Necklaces",
+        "price": 1799,
+        "mrp": 2299,
+        "stock": 7,
+        "tags": "choker antique mango",
+        "isNew": false,
+        "best": true,
+        "desc": "Traditional mango motifs on a snug antique-gold choker.",
+        "vars": [],
+        "mat": "Brass, antique gold plating",
+        "sku": "BO-108",
+        "img": ""
+      },
+      {
+        "id": "pearl-bracelet",
+        "name": "Pearl Charm Bracelet",
+        "cat": "Bracelets",
+        "price": 649,
+        "mrp": 899,
+        "stock": 14,
+        "tags": "pearl charm",
+        "isNew": true,
+        "best": false,
+        "desc": "Pearl strand with a small flower charm.",
+        "vars": [],
+        "mat": "Glass pearls, gold plating",
+        "sku": "BO-109",
+        "img": ""
+      }
+    ],
+    "coupons": {
+      "BHUVI10": {
+        "t": "p",
+        "v": 10,
+        "min": 499,
+        "max": 300
+      },
+      "WELCOME100": {
+        "t": "f",
+        "v": 100,
+        "min": 799
+      }
+    },
+    "offers": [
+      {
+        "id": "diwali-sale",
+        "name": "Diwali Sale",
+        "active": true,
+        "items": {
+          "gold-pearl-necklace": 1199,
+          "temple-earrings": 599,
+          "pearl-jhumka": 549,
+          "gold-plated-bangles": 899
+        }
+      }
+    ]
+  }
