@@ -7,6 +7,8 @@ import CartDrawer from './components/CartDrawer'
 import Home from './pages/Home'
 import Shop from './pages/Shop'
 import Product from './pages/Product'
+import ComingSoon from './pages/ComingSoon'
+import { COMING_SOON } from './config'
 const AdminApp = lazy(() => import('./admin/AdminApp')) // admin code is a separate chunk; customers never download it
 function Shell() {
   const { pathname } = useLocation(), cat = useCatalog()
@@ -23,6 +25,6 @@ export default function App() {
   useEffect(() => { document.title = location.pathname.startsWith('/admin') ? 'Bhuvi admin' : document.title }, [])
   return (<Routes>
     <Route path="/admin/*" element={<Suspense fallback={<div className="empty">Loading…</div>}><AdminApp /></Suspense>} />
-    <Route path="*" element={<CatalogProvider><Shell /></CatalogProvider>} />
+    <Route path="*" element={COMING_SOON ? <ComingSoon /> : <CatalogProvider><Shell /></CatalogProvider>} />
   </Routes>)
 }
